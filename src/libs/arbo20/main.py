@@ -8,6 +8,8 @@ import psycopg2
 from psycopg2.extras import execute_values
 import random
 
+#test push ok
+
 # ================== CONFIG ==================
 DB_DSN = os.getenv("DB_DSN", "dbname=arbo20 user=postgres password=admin2025 host=127.0.0.1 port=5432")
 BATCH_SIZE = 5000
